@@ -1,0 +1,8 @@
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\bin\Release\BrightnessMonitor.exe.config
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\bin\Release\BrightnessMonitor.exe
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\bin\Release\BrightnessMonitor.pdb
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\obj\Release\WindowsFormsApplication2.BrightnessModifier.resources
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\obj\Release\BrightnessMonitor.Properties.Resources.resources
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\obj\Release\BrightnessMonitor.csproj.GenerateResource.Cache
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\obj\Release\BrightnessMonitor.exe
+C:\Users\PaulH\Documents\Visual Studio 2013\Projects\BrightnessMonitor\BrightnessMonitor\obj\Release\BrightnessMonitor.pdb
