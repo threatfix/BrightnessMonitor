@@ -22,7 +22,11 @@ Please note that while you do not need to install BrightnessMonitor, it requires
 <img src="http://i.imgur.com/sN5KoE6.png"></p>
 
 ### Release Notes
-* Version 1 includes all of the features noted in the About section
+* Allows user to modify brightness on a scale from 1 to 100 (1 = Dimmest, 100 = Brightest).
+* Allows user to set two preset brightnesses, based on time of day. I broke it up based on Day and Night, but it functions as two simple presets). These presets allow the user to select the time of change, brightness upon change, and the ability to gradually shift from the current brightness to the preset brightness (over a 90 second period making it easier on the eyes).
+* Allows user to set the application as a startup application, setting your brightness on Windows boot.
+* Allows user to keep application in the Windows tray, to prevent it from showing on your taskbar.
+* Allows user to reset to defaults.
 
 ### Future Release
 * Provide ability to alter brightness based on specific days
