@@ -1,42 +1,41 @@
 <p align="center"> 
-<img src="http://i.imgur.com/beWOgsn.png"></p>
+<img src="http://i.imgur.com/3gtThN2.png"></p>
 
 ### Disclaimer 
 
-ExtractIOC is not fully complete (e.g., Filenames sometimes show as domains) and as such you may (probably will) experience bugs and issues. is in beta at the moment, and you may experience issues with this app. If you're having trouble compiling or executing ExtractIOC, or have identified
-a bug, or simply crashed the application - [Report it to me]. I'll do my best
+BrightnessMonitor was tested on a dual screen desktop and may not be compatible with screens with ambient displays (such as tablets and monitors). Use are your own discretion. If you do experience bugs, or simply crashed the application - [Report it to me]. I'll do my best
 to fix any issues you're having.
 
-[Report it to me]: https://github.com/threatfix/ExtractIOC/wiki
+[Report it to me]: https://github.com/threatfix/BrightnessMonitor/issues
 
 ### About
 
-ExtractIOC is a Windows application built to provide assistance to cyber threat intelligence analysts. This application allows a user to import one or more IoC (Indicator of Compromise) reports and export a sorted list or report of user-specified IoC types. For example, if a user has a large list of IoC (IP and email addresses, domains, and MD5 hashes), they can specify which IoC type they want to export, export it as a flat text file or comma separated (CSV) file, implement security brackets (e.g., google[.]com instead of google.com), and filter out IoC through a user specified whitelist.
+BrightnessMonitor is a Windows application (developed in C#) built to manually or automatically adjust your monitor's brightness. The following are features of the BrightnessMonitor application:
+*Allows user to modify brightness on a scale from 1 to 100 (1 = Dimmest, 100 = Brightest).
+*Allows user to set two preset brightnesses, based on time of day. I broke it up based on Day and Night, but it functions as two simple presets). These presets allow the user to select the time of change, brightness upon change, and the ability to gradually shift from the current brightness to the preset brightness (over a 90 second period making it easier on the eyes).
+*Allows user to set the application as a startup application, setting your brightness on Windows boot.
+*Allows user to keep application in the Windows tray, to prevent it from showing on your taskbar.
+*Allows user to reset to defaults.
 
+While not a "cyber security", I needed an application that would reduce eye strain on my bright monitors, with the option of automatically setting difference brightness values for day and night. I couldn't quite find one that did what I wanted and worked correctly, so I made this tool.
+Let me know if you have feature requests.
+
+Please note that while you do not need to install BrightnessMonitor, it requires the config file (which is in the current "Executable" directory). This file holds the values you set. Without this file, BrightnessMonitor will NOT start.
 
 <p align="center"> 
 <img src="http://i.imgur.com/sN5KoE6.png"></p>
 
-
 ### Release Notes
-* Provides user with ability to input text files that include IoC.
-* Provides user with ability to select specific IoC to output.
-* Provides user with ability to export IoC to a flat text or CSV file.
-* Provides user ability to leverage a whitelist to prevent the extraction of unwanted IoC.
-* Provides user ability to modify IoC by adding brackets to periods.
+* Version 1 includes all of the features noted in the About section
 
 ### Future Release
-* Provide user with context for application functions.
-* Allow user to import/export filetypes other than text files.
-* Reduce false positives.
-* Implement text boxes to allow for easier user modification
-* Virustotal check on IoC
+* Day of week selections
+* Better UI?
 
 ### About
 ![ThreatFix](http://cdn1.editmysite.com/uploads/5/1/4/0/51408561/background-images/1387838909.png)
 
-
 <p align="center"> 
-Copyright (c) 2015 Paul Hutelmyer
+Copyright (c) 2016 Paul Hutelmyer
 <p align="center"> 
 [Threatfix.com](http://www.threatfix.com)
