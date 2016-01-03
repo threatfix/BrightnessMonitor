@@ -182,9 +182,9 @@
             this.label1.ForeColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(18, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 15);
+            this.label1.Size = new System.Drawing.Size(100, 15);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Brightness Modifier";
+            this.label1.Text = "Brightness Monitor";
             // 
             // statusBar
             // 
@@ -880,7 +880,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "BrightnessModifier";
-            this.Text = "Brightness Modifier";
+            this.Text = "Brightness Monitor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BrightnessModifier_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BrightnessModifier_FormClosed);
             this.Resize += new System.EventHandler(this.BrightnessModifier_Resize);
