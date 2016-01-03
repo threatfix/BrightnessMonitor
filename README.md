@@ -17,7 +17,7 @@ BrightnessMonitor is a Windows application (developed in C#) built to manually o
 * Allows user to reset to defaults.
 
 <p align="center"> 
-<img src="http://i.imgur.com/5nnlZIt.gifv"></p>
+<img src="http://i.imgur.com/5nnlZIt.gif"></p>
 
 While not a "cyber security", I needed an application that would reduce eye strain on my bright monitors, with the option of automatically setting difference brightness values for day and night. I couldn't quite find one that did what I wanted and worked correctly, so I made this tool.
 Let me know if you have feature requests.
