@@ -30,6 +30,7 @@ namespace WindowsFormsApplication2
             InitializeComponent();
             ValueIntializer();
             PresetInitializer();
+            defaultTimer.Start();
         }
 
 
@@ -43,14 +44,13 @@ namespace WindowsFormsApplication2
             short value = (short)brightnessTrack.Value;
             Brightness.SetBrightness((byte)value);
             brightnessLabel.Text = value.ToString();
-            systemTime.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            systemTime.Text = DateTime.Now.ToString("hh:mm:ss tt");            
         }
 
         //Initalizer
         //Generate Saved Values
         private void PresetInitializer()
         {
-
             if (rkApp.GetValue("BrightnessModifier") == null)
             {
                 // The value doesn't exist, the application is not set to run at startup
@@ -532,12 +532,6 @@ namespace WindowsFormsApplication2
             }
             else
                 e.Cancel = true;
-
-            if (e.CloseReason == CloseReason.WindowsShutDown)
-            {
-                trayIcon.Dispose();
-                this.Dispose();
-            }
         }
 
         //Form
@@ -662,6 +656,16 @@ namespace WindowsFormsApplication2
         private void threatBox_Click_1(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://www.threatfix.com");
+        }
+
+        private void defaultTimer_Tick(object sender, EventArgs e)
+        {
+            short value = (short)brightnessTrack.Value;
+            string currentBrightness = value.ToString();
+            Brightness.SetBrightness((byte)value);
+            brightnessLabel.Text = currentBrightness;
+            currentBrightnessLbl.Text = "Current Brightness: " + brightnessLabel.Text;
+            
         }
 
     }

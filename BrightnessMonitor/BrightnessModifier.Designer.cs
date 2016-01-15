@@ -92,6 +92,7 @@
             this.nightBackLbl = new System.Windows.Forms.Label();
             this.startBackLbl = new System.Windows.Forms.Label();
             this.trayBackLbl = new System.Windows.Forms.Label();
+            this.defaultTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.brightnessTrack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.threatBox)).BeginInit();
             this.panel2.SuspendLayout();
@@ -854,6 +855,11 @@
             this.trayBackLbl.TabIndex = 89;
             this.trayBackLbl.Text = "Tray: Yes";
             // 
+            // defaultTimer
+            // 
+            this.defaultTimer.Interval = 60000;
+            this.defaultTimer.Tick += new System.EventHandler(this.defaultTimer_Tick);
+            // 
             // BrightnessModifier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -972,6 +978,7 @@
         private System.Windows.Forms.Label startBackLbl;
         private System.Windows.Forms.Label trayBackLbl;
         private System.Windows.Forms.Label systemTime;
+        private System.Windows.Forms.Timer defaultTimer;
     }
 }
 
