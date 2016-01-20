@@ -46,7 +46,4 @@ Please note that while you do not need to install BrightnessMonitor, it requires
 
 [Report it to me]: https://github.com/threatfix/BrightnessMonitor/issues
 
-<p align="center"> 
-Copyright (c) 2016 Paul Hutelmyer
-<p align="center"> 
 [Threatfix.com](http://www.threatfix.com)
